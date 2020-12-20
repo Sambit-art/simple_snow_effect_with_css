@@ -1,0 +1,218 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+.snow_field{
+background:black;
+height: 98vh;
+width: 100%;
+overflow-y: hidden;
+}
+
+.snow{
+  background: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+  /* margin-left: 100px; */
+  left: 30px;
+  top: -40px;
+  animation-name: snow_fall;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  filter: blur(5px);
+  animation-timing-function: ease-in;
+  
+  /* animation-direction: reverse; */
+}
+.snow1{
+  animation-delay: 1s;
+left: 100px;
+opacity: 0.5;
+animation-duration:3s;
+}
+.snow2{
+  animation-delay: 0.5s;
+left: 180px;
+opacity: 0.5;
+animation-duration:8.5s;
+}
+.snow3{
+  animation-delay: 4.5s;
+left: 210px;
+opacity: 0.5;
+animation-duration: 5s;
+}
+.snow4{
+  animation-delay: 4s;
+left: 230px;
+opacity: 0.5;
+animation-duration:3.3s;
+}
+.snow5{
+  animation-delay: 8.2s;
+left: 270px;
+opacity: 0.8;
+animation-duration:2.7s;
+}
+.snow6{
+  animation-delay: 2.5s;
+left: 300px;
+opacity: 0.7;
+animation-duration: 6.4s;
+}
+.snow7{
+  animation-delay: 1.8s;
+left: 330px;
+opacity: 0.5;
+animation-duration:3s;
+}
+.snow8{
+  animation-delay: 0.5s;
+left: 370px;
+opacity: 0.5;
+animation-duration:8s;
+}
+.snow9{
+  animation-delay: 2.4s;
+left: 420px;
+opacity: 0.5;
+animation-duration: 5.3s;
+}
+.snow10{
+  animation-delay: 4.7s;
+left: 460px;
+opacity: 0.5;
+animation-duration:3s;
+}
+.snow11{
+  animation-delay: 4.4s;
+left: 520px;
+opacity: 0.8;
+animation-duration:2.4s;
+}
+.snow12{
+  animation-delay: 2.7s;
+left: 600px;
+opacity: 0.7;
+animation-duration: 6s;
+}
+.snow13{
+  animation-delay: 1.4s;
+left: 600px;
+opacity: 0.5;
+animation-duration:3s;
+}
+.snow14{
+  animation-delay: 0.5s;
+left: 680px;
+opacity: 0.5;
+animation-duration:8s;
+}
+.snow15{
+  animation-delay: 2.6s;
+left: 710px;
+opacity: 0.5;
+animation-duration: 5s;
+}
+.snow16{
+  animation-delay: 4.7s;
+left: 830px;
+opacity: 0.5;
+animation-duration:3s;
+}
+.snow17{
+  animation-delay: 8.2s;
+left: 870px;
+opacity: 0.8;
+animation-duration:2s;
+}
+.snow18{
+  animation-delay: 2.4s;
+left: 900px;
+opacity: 0.7;
+animation-duration: 6.3s;
+}
+.snow19{
+  animation-delay: 1.4s;
+left: 930px;
+opacity: 0.5;
+animation-duration:3.6s;
+}
+.snow20{
+  animation-delay: 9.5s;
+left: 970px;
+opacity: 0.5;
+animation-duration:8s;
+}
+.snow21{
+  animation-delay: 2.4s;
+left: 1020px;
+opacity: 0.5;
+animation-duration: 5.3s;
+}
+.snow22{
+  animation-delay: 4.2s;
+left: 1160px;
+opacity: 0.5;
+animation-duration:3.3s;
+}
+.snow23{
+  animation-delay: 4.4s;
+left: 1120px;
+opacity: 0.8;
+animation-duration:2.4s;
+}
+.snow24{
+  animation-delay: 2.9s;
+left: 1100px;
+opacity: 0.7;
+animation-duration: 6.3s;
+}
+.snow25{
+  animation-delay: 2.4s;
+left: 1200px;
+opacity: 0.7;
+animation-duration: 8.4s;
+}
+.snow26{
+  animation-delay: 2.4s;
+left: 1300px;
+opacity: 0.7;
+animation-duration: 6.7s;
+}
+.snow27{
+  animation-delay: 2.9s;
+left: 1400px;
+opacity: 0.7;
+animation-duration: 6.5s;
+}
+
+@keyframes snow_fall{
+
+  0%{
+    top: -30px;}
+  100%{
+    top: 95%;
+  }
+
+}
+
+@media screen and (max-width:500){
+
+  .snow_field{
+    width: 100vw;
+    height: 100vh;
+  }
+  @keyframes snow_fall{
+
+    0%{
+      top: -30px;}
+    100%{
+      top: 105vh;
+    }
+  
+  }
+}
